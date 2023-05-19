@@ -1,0 +1,138 @@
+.TransactionForm {
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(61, 61, 61, 0.48);
+}
+
+.TransactionForm form {
+    width: 611px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 8px;
+
+    gap: 26px;
+}
+
+
+.TransactionForm form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.TransactionForm form div:first-of-type {
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.TransactionForm form div:first-of-type :last-child {
+    cursor: pointer;
+}
+
+.TransactionForm form .buttons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0
+}
+
+.TransactionForm form .buttons .entrada {
+    background: #3A9FF1;
+}
+
+.TransactionForm form .buttons .saida {
+    background: #FF576B;
+}
+
+.TransactionForm form .buttons button {
+    width: 50%;
+    height: 60px;
+    border: none;
+    background: #B9B9B9;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.TransactionForm form .buttons button:first-of-type {
+    border-radius: 10px 5px 5px 10px;
+}
+
+.TransactionForm form .buttons button:last-of-type {
+    border-radius: 5px 10px 10px 5px;
+}
+
+.TransactionForm label {
+    width: 485px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+
+    color: #484848;
+}
+
+.TransactionForm input,
+.TransactionForm select {
+    width: 485px;
+    height: 63.49px;
+
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+
+    padding: 16px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.TransactionForm button:last-of-type {
+    background: #7978D9;
+    border-radius: 5px;
+
+    width: 236px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    border: none;
+    padding: 11px 47px;
+
+    margin: auto;
+
+    color: #FFFFFF;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

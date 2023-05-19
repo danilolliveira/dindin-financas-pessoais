@@ -1,0 +1,71 @@
+.TableRow {
+    position: relative;
+}
+
+.TableRow td {
+    max-width: 160px;
+    word-wrap: break-word;
+    padding: 30px 5px;
+}
+
+
+.TableRow .entrada {
+    color: #645FFB;
+}
+
+.TableRow .saida {
+    color: #FA8C10;
+}
+
+.TableRow .modal {
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    right: 40px;
+    top: 60px;
+
+    background: #E4F2FD;
+    border-radius: 4px;
+}
+
+.TableRow .modal.del {
+    right: 3px;
+}
+
+.TableRow .modal>img {
+    position: absolute;
+    right: 3px;
+    top: -7px;
+
+}
+
+.TableRow .modal>div {
+    display: flex;
+    justify-content: center;
+    gap: 7px
+}
+
+.TableRow .modal>div>button {
+    width: 37px;
+    height: 15px;
+    border: none;
+    border-radius: 4px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.TableRow .modal>div>button.yes {
+    background: #3A9FF1;
+}
+
+.TableRow .modal>div>button.no {
+    background: #FF576B;
+}

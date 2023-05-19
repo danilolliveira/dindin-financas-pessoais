@@ -1,0 +1,166 @@
+.Home {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #FFF;
+    border-radius: 60px 60px 0px 0px;
+    color: black;
+
+    padding: 70px;
+    gap: 34px;
+    position: relative;
+}
+
+.Home .table-container {
+    position: relative;
+}
+
+.Home #filter {
+    all: unset;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -34px;
+    left: 0px;
+
+    width: 80px;
+    height: 30px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    gap: 5px;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+.Home .transactions-table {
+    position: relative;
+    height: fit-content;
+    width: 70vw;
+    max-width: 100%;
+    font-family: 'Lato';
+}
+
+.Home .sort-date {
+    margin-bottom: 5px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+
+.Home .transactions-table thead {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 58px;
+}
+
+.Home .transactions-table td {
+    background: rgba(255, 255, 255, 0.0001);
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.Home .transactions-table .edit-icon,
+.Home .transactions-table .delete-icon {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.Home .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 33px 20px;
+
+    gap: 30px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.Home .summary div>div {
+    display: flex;
+    gap: 30px
+}
+
+.Home .summary>div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.Home .summary h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #2F2F2F;
+}
+
+.Home .summary p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #2F2F2F;
+}
+
+.Home .in,
+.Home .summary div>div:first-of-type p:last-child.in {
+    color: #645FFB;
+}
+
+.Home .out,
+.Home .summary div>div:last-of-type p:last-child.out {
+    color: #FA8C10;
+}
+
+.Home .summary h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F2F2F;
+
+    border-top: 1px solid #EAEAEA;
+    padding-top: 17px;
+}
+
+.Home .add-to-summary {
+    background: #7978D9;
+    border: none;
+    border-radius: 5px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 11px 30px;
+    cursor: pointer;
+}

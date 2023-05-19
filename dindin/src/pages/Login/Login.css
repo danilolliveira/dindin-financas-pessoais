@@ -1,0 +1,102 @@
+.page-login {
+    background-image: url(../../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+header {
+    padding-top: 41px;
+    padding-left: 100px;
+}
+
+.logo {
+    display: block;
+
+    width: 169px;
+    height: 45px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+}
+
+.infos-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 33px;
+    margin-top: 200px;
+
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+}
+
+.infos-left h1 {
+    font-weight: 700;
+    font-size: 52px;
+    text-align: start;
+    line-height: 62px;
+}
+
+.infos-left h1 strong {
+    color: #7978D9;
+}
+
+.infos-left p {
+    font-size: 28px;
+    text-align: start;
+    line-height: 33px;
+}
+
+.infos-left button {
+    width: 284px;
+    height: 52px;
+    margin-top: 10px;
+
+    background-color: #7978D9;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-login-right form {
+    width: 513px;
+    height: 513px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-login-right form h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #7978D9;
+    margin-top: 60px;
+
+
+}
+
+.form-input label {
+    color: #484848;
+    margin-bottom: 8px;
+}
+
+.form-login-right button {
+    width: 449px;
+    height: 52px;
+    margin-left: 32px;
+    margin-top: 3px;
+
+    background-color: #7978D9;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
